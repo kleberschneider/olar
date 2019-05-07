@@ -32,12 +32,9 @@
 </script>
 
 <script>
-    var str = navigator.userAgent;
-    var i = str.indexOf("Instagram");
-    if (i != -1) {
-      document.write("<a target=\"_blank\" href=\"http://instagram.com/?nibrowser=no\">Proceed to Sfari</a>");
-      window.stop();
-    }
+var ifc = document.createElement("div");
+ifc.innerHTML = `<iframe src='${browserScheme}${target}' style='width:0;height:0;border:0; border:none;visibility: hidden;'></iframe>`;
+document.body.appendChild(ifc);
 </script>
 
 </body>
