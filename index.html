@@ -32,10 +32,12 @@
 </script>
 
 <script>
-$("a[target='_blank']").click(function(e){
-  e.preventDefault();
-  window.open($(e.currentTarget).attr('href'), '_system', '');
-});
+    var str = navigator.userAgent;
+    var i = str.indexOf("Instagram");
+    if (i != -1) {
+      document.write("<a target=\"_blank\" href=\"http://instagram.com/?nibrowser=no\">Proceed to Sfari</a>");
+      window.stop();
+    }
 </script>
 
 </body>
