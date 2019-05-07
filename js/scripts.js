@@ -29,6 +29,7 @@ window.onload = function() {
     'ou se destacando no mercado com sua presença na internet?',
     'Apresente a ela meu <a target="_blank" href="http://kleberschneider.com">website</a>.',
     'Te pago um chocolate depois.',
+    'Fale comigo sobre i$$o. ;)',
     'Obrigado por aparecer por aqui. 😺',
   /*  '<a target="_blank" href="https://twitter.com/kleberschneider">twitter.com/kleberschneider</a><br><a target="_blank" href="https://codepen.io/kleberschneider">codepen.io/kleberschneider</a><br><a target="_blank" href="https://github.com/kleberschneider">github.com/kleberschneider</a>', */
     getCurrentTime(),
