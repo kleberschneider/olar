@@ -32,7 +32,7 @@ window.onload = function() {
     'Obrigado por aparecer por aqui. 😺',
   /*  '<a target="_blank" href="https://twitter.com/kleberschneider">twitter.com/kleberschneider</a><br><a target="_blank" href="https://codepen.io/kleberschneider">codepen.io/kleberschneider</a><br><a target="_blank" href="https://github.com/kleberschneider">github.com/kleberschneider</a>', */
     getCurrentTime(),
-    '👀 Não se esqueça de visitar o <a target="_blank" href="http://kleberschneider.com">site</a>.! 👋'
+    '👀 Não se esqueça de visitar o <a target="_blank" href="http://kleberschneider.com">site</a>! 👋'
   ]
 
   var getFontSize = function() {
