@@ -27,7 +27,7 @@ window.onload = function() {
     'Sabe aquela pessoa que você conhece e precisa alavancar seu negócio,', //apresentasse meu <a target="_blank" href="http://kleberschneider.com">website</a>',
     'que pode criar sua própria oportunidade, empreendendo online nessa fase de poucas oportunidades,',
     'ou se destacando no mercado com sua presença na internet?',
-    'Apresente a ela meu <a target="_blank" href="http://kleberschneider.com">website</a>.',
+    'Apresente a ela meu <a target="_blank" href="http://extneral">http://kleberschneider.com</a>.',
     'Te pago um chocolate depois.',
     'Fale comigo sobre i$$o. ;)',
     'Obrigado por aparecer por aqui. 😺',
