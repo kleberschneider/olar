@@ -27,10 +27,11 @@ window.onload = function() {
     'Sabe aquela pessoa que você conhece e precisa alavancar seu negócio,', //apresentasse meu <a target="_blank" href="http://kleberschneider.com">website</a>',
     'que pode criar sua própria oportunidade, empreendendo online nessa fase de poucas oportunidades,',
     'ou se destacando no mercado com sua presença na internet?',
-    'Apresente a ela meu <a target="_blank" href="http://kleberschneider.com">website</a> - mas ao clicar no link, peça para o Instagram abrir no seu browser padrão.',
+    'Apresente a ela meu <a target="_blank" href="http://kleberschneider.com">website</a>.',
+    '(peça para o Instagram abrir no seu browser padrão) 😺',
     'Te pago um chocolate depois.',
     'Fale comigo sobre i$$o. ;)',
-    'Obrigado por aparecer por aqui. 😺',
+    'Obrigado por aparecer por aqui.',
   /*  '<a target="_blank" href="https://twitter.com/kleberschneider">twitter.com/kleberschneider</a><br><a target="_blank" href="https://codepen.io/kleberschneider">codepen.io/kleberschneider</a><br><a target="_blank" href="https://github.com/kleberschneider">github.com/kleberschneider</a>', */
     getCurrentTime(),
     '👀 Não se esqueça de visitar o <a target="_blank" href="http://kleberschneider.com">site</a>! 👋'
