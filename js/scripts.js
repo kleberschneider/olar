@@ -11,30 +11,27 @@ window.onload = function() {
     var hours =  date.getHours();
     var minutes =  date.getMinutes();
     var current = hours + (minutes * .01);
-    if (current >= 3 && current < 12) return 'Um bom dia por aí!';
-    if (current >= 12 && current < 18) return 'Uma boa tarde por aí!';
-    if (current >= 18 || current < 3) return 'Uma boa noite por aí!';
+    if (current >= 5 && current < 18) return 'Have a nice day!';
+    if (current >= 18 && current < 22) return 'Have a nice evening!';
+    if (current >= 22 || current < 5) return 'Have a good night!';
   }
 
   var messages = [
-    'Olá, stalker! :)',
-    'Cê me encontrou, Kleber Schneider aqui! 🙋🏻',
-    'Eu projeto e codifico coisas na web.',
-    'Por exemplo, posso construir:',
-    'lojas virtuais, portfolios, aplicações web...',
-    'Não tenho muitos amigos, mas aposto que você tem.',
-    'Então, gostaria que me fizesse um favor.',
-    'Sabe aquela pessoa que você conhece e precisa alavancar seu negócio,', //apresentasse meu <a target="_blank" href="http://kleberschneider.com">website</a>',
-    'que pode criar sua própria oportunidade, empreendendo online nessa fase de poucas oportunidades,',
-    'ou se destacando no mercado com sua presença na internet?',
-    'Apresente a ela meu <a target="_blank" href="http://kleberschneider.com">website</a>.',
-    '(peça para o Instagram abrir no seu browser padrão) 😺',
-    'Te pago um chocolate depois.',
-    'Fale comigo sobre i$$o. ;)',
-    'Obrigado por aparecer por aqui.',
-  /*  '<a target="_blank" href="https://twitter.com/kleberschneider">twitter.com/kleberschneider</a><br><a target="_blank" href="https://codepen.io/kleberschneider">codepen.io/kleberschneider</a><br><a target="_blank" href="https://github.com/kleberschneider">github.com/kleberschneider</a>', */
+    'Hi there! :)',
+    'Kleber Schneider here! 🙋🏻',
+    'Maybe you\'re looking for my instant messenger.',
+    'You can pick one of the following:',
+    '- Wire: @kleberschneider',
+    '- Telegram: @kleberschneider',
+    'And that\'s all.',
+    'I haven\'t WhatsApp cuz I don\'t like green',
+    'and other things that I\'m too busy right now to explain.',
+    'If you do software stuff, I would like to join into groups.',
+    'We can help each other to get thing$ done.',
+    'For Slack, Jira or other teamworks,',
+    'plz come back to my <a target="_blank" href="http://kleberschneider.com">website</a> and search on menu.',
     getCurrentTime(),
-    '👀 Não se esqueça de visitar o <a target="_blank" href="http://kleberschneider.com">site</a>! 👋'
+    '👀 Cya! 👋'
   ]
 
   var getFontSize = function() {
